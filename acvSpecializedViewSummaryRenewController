@@ -17,7 +17,7 @@ Itrack#        Date        Author                             Change
 public without sharing class acvSpecializedViewSummaryRenewController {
     
     @AuraEnabled
-    public static summaryWrap getSummaryViewList(Id OpptyId) {
+    public static summaryWrap getSummaryViewList(Id OpptyIdx) {
         //added by akoteshw
         //OpptyId = '0062T00001IyzuKQAR'  ; 
         List<summaryViewDetails> summaryViewDetlsLst = new List<summaryViewDetails>();
