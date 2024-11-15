@@ -24,7 +24,7 @@ public without sharing class acvSpecializedViewSummaryRenewController {
         //Software Summary view
         List<softwareSummaryViewDetails> swsummaryViewDetlsLst = new List<softwareSummaryViewDetails>();
         Boolean isError = False;
-        List<OpportunityLinesSV__c> opptyLinesSVList = new List<OpportunityLinesSV__c>();
+        List<OpportunityLinesSV__c> opptyLinesSVList = new List<OpportunityLinesSV__c
         List<OpportunityLineItem> opptyLinesList = new List<OpportunityLineItem>();        
         Map<Id,OpportunityLineItem> opptyLinesIdLine = new Map<Id,OpportunityLineItem>();
         Map<Id,OpportunityLinesSV__c> opptyLinesSVMap = new Map<Id,OpportunityLinesSV__c>();
