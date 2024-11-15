@@ -21,6 +21,7 @@ public without sharing class acvSpecializedViewSummaryRenewController {
         //added by akoteshw
         //OpptyId = '0062T00001IyzuKQAR'  ; 
         List<summaryViewDetails> summaryViewDetlsLst = new List<summaryViewDetails>();
+List<summaryViewDetails> summaryViewDetlsLst = new List<summaryViewDetails>();
         //Software Summary view
         List<softwareSummaryViewDetails> swsummaryViewDetlsLst = new List<softwareSummaryViewDetails>();
         Boolean isError = False;
